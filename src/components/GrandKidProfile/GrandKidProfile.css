@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grandkid-profile {
+    background-color: lightgray;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.grandkid-item .card .card-content .collection {
+    display: block;
+    height: 120px;
+    overflow: auto;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.card img.materialized.active {
+    max-height: none;
+    object-fit: none;
+}
+
+.profile-repo-list {
+    display: block;
+    height: 85%;
+    overflow: auto;
+}
+
+.grandkid-item span.card-title {
+    background-color: lightgrey;
+}
+
+.profile {
+    padding: 15px;
+}
+
+.profile img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.profile .row .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .row .col button {
+    margin: 10px auto;
+}
+
+.add-github img {
+    
+}
+
+.add-github .card-action a {
+    color: white !important;
+}
+
+.add-github .card-image {
+    background: white;
+}
+
+.badge img {
+    margin-bottom: 15px;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+}
+
+.grandkid-badges .row {
+    text-align: center;
+}
+
+.grandkid-badges .row {
+    display: inline-block;
+}

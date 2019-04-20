@@ -1,0 +1,27 @@
+.grandkid-item .card .card-content .collection {
+    display: block;
+    height: 120px;
+    overflow: auto;
+}
+
+.card img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card img.materialized.active {
+    max-height: none;
+    object-fit: none;
+}
+
+.grandkid-item span.card-title {
+    background-color: lightgrey;
+    color: #333 !important;
+}
+.add-github .card-action a {
+    color: white !important;
+}
+
+.add-github .card-image {
+    background: white;
+}
